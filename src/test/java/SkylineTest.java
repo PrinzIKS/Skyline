@@ -6,7 +6,7 @@ class SkylineTest {
 
     @Test
     public void getSkylineWithoutBuildings() {
-        int[][] setup = {{}};
+        int[][] setup = {};
         int[][] expected = new int[0][0];
         int[][] actual = Skyline.getSkyline(setup);
         assertArrayEquals(expected, actual);
